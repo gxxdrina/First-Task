@@ -1,8 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  color: #6c6b6b;
 }
 
 header {
@@ -12,8 +11,8 @@ header {
 
 main {
   width: 960px;
-  display: flex;
   margin: 50px auto;
+  display: flex;
 }
 
 .step-box {
@@ -70,16 +69,20 @@ footer {
 
   main {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    
   }
   
   .step-box {
     width: 90%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
   }
   
   .step-box:last-child {
-    margin-right: 30px;
+    margin: 0 auto;
 
   }
 
